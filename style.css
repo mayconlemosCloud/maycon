@@ -295,13 +295,15 @@ body{
 
 @media screen and (max-width:900px) {
 	.projetos_Galeria {
-		grid-template-columns: 1fr 
+		grid-template-columns: 1fr; 
+		
 	}
 	.container_Projetos{
 		width: 780px;
 	}
 	.projetos_Item{
 		width: 50%;
+		margin-left: 25%;
 	}
 	.projetos_Titulo{
 		font-size: 20px;
